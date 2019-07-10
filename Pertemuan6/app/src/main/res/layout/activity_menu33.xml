@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu33">
+
+    <TextView
+        android:id="@+id/menu33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Huruf :"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/Txt_Nama"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/menu33"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/Btn_Tampil"
+        android:layout_width="126dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/Txt_Nama"
+        android:text="TAMPILKAN"
+        android:onClick="Tampil_Hasil"
+        />
+
+    <TextView
+        android:id="@+id/Lbl_Hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Btn_Tampil"
+        android:textSize="24dp" />
+</RelativeLayout>

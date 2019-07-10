@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".algo1">
+
+    <TextView
+        android:id="@+id/Lbl_Angka"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Masukkan Angka :"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/Txt_Angka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lbl_Angka"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Txt_Angka"
+        android:onClick="Tampil_Akar"
+        android:text="Tampilkan" />
+
+    <TextView
+        android:id="@+id/Lbl_Akar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:textSize="26dp" />
+
+</RelativeLayout>
