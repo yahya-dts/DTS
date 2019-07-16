@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter Nama to Store in SQLite" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:onClick="SimpanData"
+        android:background="@color/colorPrimaryDark"
+        android:text="Store" />
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="TampilData"
+        android:layout_marginStart="20dp"
+        android:text="Get all names from Sqlite" />
+
+    <TextView
+        android:id="@+id/tvnames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Enter Name to Store in SQLite" />
+
+</LinearLayout>
