@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-securtity-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">pegawai.terimajasa.com</domain>
+    </domain-config>
+</network-securtity-config>
